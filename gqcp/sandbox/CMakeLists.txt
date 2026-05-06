@@ -7,6 +7,7 @@ list(APPEND sandbox_target_sources
     ${CMAKE_CURRENT_SOURCE_DIR}/london_orbital_gradients.cpp    
     ${CMAKE_CURRENT_SOURCE_DIR}/current_density_bugfixing.cpp 
     ${CMAKE_CURRENT_SOURCE_DIR}/test_J_K_functions.cpp 
+    ${CMAKE_CURRENT_SOURCE_DIR}/fock_matrix_intermediates.cpp 
 )
 
 set(sandbox_target_sources ${sandbox_target_sources} PARENT_SCOPE)
